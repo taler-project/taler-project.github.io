@@ -1,0 +1,219 @@
+@font-face {
+	font-family: 'Exo 2';
+	src: url('../fonts/Exo2-Light.eot');
+	src: url('../fonts/Exo2-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Exo2-Light.woff') format('woff'),
+		url('../fonts/Exo2-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+html {
+		font-size: 15px;
+}
+body {
+	font-family: 'Exo 2', sans-serif;
+	color: #fff;
+	font-weight: 300;
+	height: 100%;
+	position: relative;
+	background-color: #001c3f;
+	background-image: url(../img/Taler_BG-min.jpg);
+	background-size: cover;
+	background-repeat: no;
+}
+body a {
+	color: #fff;
+	text-decoration: none;
+}
+body a:link {
+	color: #fff;
+	text-decoration: none;
+}
+body a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+body a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+body a:active {
+	color: #fff;
+	text-decoration: none;
+}
+.main {
+	margin: auto;
+	min-height: 100%;
+	padding: 40px 0;
+}
+.main-content {
+	padding-bottom: 2rem;
+}
+.main-links {
+	padding-top: 1rem;
+	padding-left: 14rem;
+}
+.main-links a{
+	display: inline-block;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	background-color: rgba(1, 14, 34, .4);
+	height: 3.3rem;
+	width: 23rem;
+	line-height: 3.3rem;
+	text-align: center;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	border: rgb(0, 128, 155) 1px solid;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0, 63, 120, .9);
+	box-shadow: 0px 0px 3px 1px rgba(0, 63, 120, .9);
+	transition: 0.3s;
+}
+.main-links a:hover {
+	background-color: rgba(1, 14, 34, .9);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0, 63, 120, .9);
+	box-shadow: 0px 0px 10px 1px rgba(0, 63, 120, .9);
+}
+.main-links a span {
+	text-transform: none;
+}
+
+.lin, .win {
+	margin-top: 2rem;
+}
+.exchange-link {
+	max-width: 250px;
+	padding-top: 2rem;
+	margin: 1rem auto;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 1rem;
+	font-weight: 400;
+}
+h1>span {
+	text-transform: uppercase;
+}
+h1 {
+	margin-top: 1rem;
+	font-weight: 300;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 3rem;
+	margin-bottom: 0;
+}
+.main-text {
+	padding: 0 2rem;
+	margin-top: 3rem;
+	background-color: rgba(1, 14, 34, .7);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	border: rgb(0, 128, 155) 1px solid;
+	-webkit-box-shadow: 0px 0px 8px 1px rgba(0, 63, 120, .9);
+	box-shadow: 0px 0px 8px 1px rgba(0, 63, 120, .9);
+}
+.main-text p {
+	line-height: 1.7rem;
+	font-size: 1.1rem;
+}
+.whitepaper {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	text-decoration: underline;
+	font-size: 1.2rem;
+}
+footer {
+	width: 100%;
+	min-height: 4rem;
+	margin-top: -4rem;
+	margin-bottom: 0;
+	background-color: rgba(1, 14, 34, .9);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-top: rgb(0, 128, 155) 1px solid;
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0, 63, 120, .9);
+	box-shadow: 0px 0px 3px 1px rgba(0, 63, 120, .9);
+	font-size: .9rem;
+	line-height: 2.5rem;
+	margin-bottom: 0;
+	text-align: center;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*==========  Временный текст  ==========*/
+.temporary-text {
+	font-size: 1.3rem;
+	margin: 1rem;
+	padding: .2rem 2rem;
+	background-color: rgba(241,0,0,.6);
+	border-radius: 10px;
+}
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	html {
+		font-size: 15px;
+	}
+	.main-links {
+		padding-left: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	html {
+		font-size:14px;
+	}
+	#main {
+	height: 100vh;
+	background-size: cover;
+	}
+	h1 {
+		margin-top: 1rem;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	html {
+		font-size: 14px;
+	}
+	#main {
+	height: 100vh;
+	background-size: cover;
+	}
+		.main-links {
+	padding-top: 0;
+	padding-left: 0;
+	}
+	.main-btn {
+		// margin: 1rem auto;
+	}
+	h1 {
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+	.main-links a {
+		width: 20.5rem;
+	}
+}

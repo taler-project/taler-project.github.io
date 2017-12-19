@@ -1,0 +1,7 @@
+Host: http://taler.site
+
+User-agent: Yandex
+Disallow: 
+
+User-agent: *
+Disallow: 
