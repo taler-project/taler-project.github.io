@@ -1,0 +1,134 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .specification-image img {
+        display: none;
+    }
+        .features-box-text {
+        border-left: none;
+        padding-right: 1rem;
+        padding-left: 2rem;
+    }
+    .roadmap-date {
+        text-align: left;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .html {
+        font-size: 12px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .navbar-default {
+        display: block;
+    }
+   
+    .specification-list span.dots {
+        display: none;
+    }
+    span.blue {
+        color: #0d5b80;
+    }
+    .specification-list span.mobile {
+        display: inline;
+    }
+    .pd100 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .features img {
+        margin-top: 1rem;
+    }
+    .features-box-text {
+        text-align: center;
+        border-left: none;
+        padding: 0 0 1rem 0;
+    }
+    .section-header {
+        font-size: 36px;
+    }
+    .roadmap-text:before {
+        content: none;
+    }
+    .roadmap-date i {
+        display: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    html {
+        font-size: 13px;
+
+    }
+    body * {
+        font-weight: 400;
+        line-height: 1.3;
+        /*overflow: hidden;*/
+    }
+    .pd100 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .features-box {
+        margin-top: 2rem;
+    }
+    .features-text {
+        font-size: 15px;
+    }
+    .roadmap p, ul {
+         text-shadow: none;
+    }
+    .roadmap-content {
+        padding: 10px;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .roadmap-text {
+        font-size: 13px;
+        padding: 0 0 10px 0;
+        margin-left: 15px;
+    }
+        .roadmap-text p {
+        font-size: 15px;
+    }
+    .roadmap-date {
+        /*border-right: solid 1px rgba(13,91,128,.5);*/
+        padding: 0;
+    }
+    .roadmap-date time {
+        font-size: 25px;
+    }
+    .roadmap-date p {
+        font-size: 13px;
+    }
+    .download>.bg-image {
+        display: none;
+    }
+    .community div.buttons {
+        padding: 0;
+    }
+    a.gradient-btn {
+        width: 100% ;
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+

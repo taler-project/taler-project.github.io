@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Exo 2';
+    src: local('Exo 2 Light'), local('Exo2-Light'), url('exo2light.woff2') format('woff2'), url('exo2light.woff') format('woff'), url('exo2light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2';
+    src: local('Exo 2'), local('Exo2-Regular'), url('exo2.woff2') format('woff2'), url('exo2.woff') format('woff'), url('exo2.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2';
+    src: local('Exo 2 Medium'), local('Exo2-Medium'), url('exo2medium.woff2') format('woff2'), url('exo2medium.woff') format('woff'), url('exo2medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2';
+    src: local('Exo 2 Semi Bold'), local('Exo2-SemiBold'), url('exo2semibold.woff2') format('woff2'), url('exo2semibold.woff') format('woff'), url('exo2semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2';
+    src: local('Exo 2 Bold'), local('Exo2-Bold'), url('exo2bold.woff2') format('woff2'), url('exo2bold.woff') format('woff'), url('exo2bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
