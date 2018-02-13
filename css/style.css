@@ -130,6 +130,7 @@ ul {
 .main {
   width: 100%;
   height: 100vh;
+  min-height: 600px;
   background-color: #0d5b80;
   background-image: url(../img/main_bg2.jpg);
   background-repeat: no-repeat;
