@@ -63,6 +63,12 @@
     .roadmap-date i {
         display: none;
     }
+    footer {
+        text-align: center;
+    }
+    img.footer-img {
+        display: none;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -120,9 +126,6 @@
     }
     a.gradient-btn {
         width: 100% ;
-    }
-    footer {
-        text-align: center;
     }
 }
 
