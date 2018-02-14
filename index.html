@@ -9,7 +9,7 @@
 	<script src="https://use.fontawesome.com/db2503ab77.js"></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="Талер - анонимная криптовалюта с открытым кодом. Не подвержена девальвации, имеет многоцелевое использование. Полная документация/>
+	<meta name="description" content="Талер - анонимная криптовалюта с открытым кодом. Не подвержена девальвации, имеет многоцелевое использование. Полная документация" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta property="og:type" content="website">
 	  <meta property="og:title" content="Талер - независимая белорусская криптовалюта (Taler, TLR)" />
@@ -28,7 +28,6 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-
 <!-- MOBILE MENU -->
 	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 	  <div class="container-fluid">
@@ -41,6 +40,15 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      	<img class="top-logo" src="img/icons/taler-white.png" alt="logo">
+			<div class="lang">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					RU
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</a>
+				<ul class="dropdown-menu lang-dropdown">
+					<li><a href="en/index.html">EN</a></li>
+				</ul>
+			</div>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,7 +57,7 @@
 	        <li><a href="#features">ПОЧЕМУ ТАЛЕР</a></li>
 	        <li><a href="#download">ГДЕ ВЗЯТЬ</a></li>
 	        <li><a href="http://taler-explorer.online">EXPLORER</a></li>
-	        <li><a href="http://taleronline.com/forum">ФОРУМ</a></li>
+	        <li><a href="http://talercoin.by/forumy">ФОРУМ</a></li>
 	        <li><a href="#community">СООБЩЕСТВО</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -60,10 +68,7 @@
 		<div class="container">
 			<div class="main-menu">
 				<div class="row">
-					<div class="col-sm-1">
-						<img class="top-logo" src="img/icons/taler-white.png" alt="logo">
-					</div>
-					<div class="col-sm-11">
+					<div class="col-sm-12">
 						<nav>
 							<ul class="main-menu-list menu">
 								<li class="main-menu-item"><a href="#features">Почему Талер</a></li>
@@ -71,6 +76,15 @@
 								<li class="main-menu-item"><a href="http://taler-explorer.online" target="_blank" rel="noopener">Explorer</a></li>
 								<li class="main-menu-item"><a href="http://talercoin.by/forumy" target="_blank" rel="noopener">Форум</a></li>
 								<li class="main-menu-item"><a href="#community">Сообщество</a></li>
+								<li class="lang">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										RU
+										<i class="fa fa-chevron-down" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu lang-dropdown">
+										<li><a href="en/index.html">EN</a></li>
+									</ul>
+								</li>
 							</ul>
 						</nav>
 					</div>
@@ -105,7 +119,6 @@
 			</div>
 		</div>	
 	</section>
-
 <!-- FEATURES -->
 	<section id="features" class="features pd100">
 		<h2 class="section-header">Почему Талер</h2>
@@ -142,7 +155,6 @@
 					</div>
 				</div>
 			</div>	
-
 			<div class="row">
 				<div class="features-box wow bounceInUp" data-wow-delay="0.4s">
 					<div class="col-sm-1 text-center ">
@@ -167,7 +179,6 @@
 					</div>
 				</div>
 			</div><!-- end features-box -->
-
 			<div class="row">
 				<div class="features-box wow bounceInUp" data-wow-delay="0.8s">
 					<div class="col-sm-1 text-center ">
@@ -192,10 +203,8 @@
 					</div>
 				</div>
 			</div>		
-		
 		</div>
 	</section>
-
 <!-- DOWNLOAD -->
 	<section id="download" class="download pd100">
 		<h2 class="section-header">Где взять?</h2>
@@ -217,10 +226,10 @@
 							<img  src="img/icons/mining.png" alt="добыть" class="wow zoomIn" data-wow-delay="0.3s">
 							<h4>Добыть Талер</h4>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								площадки
+								пулы
 								<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							</a>
-							  <ul class="dropdown-menu">
+							  <ul class="dropdown-menu download-dropdown">
 							    <li><a href="http://talerpool.by" target="_blank" rel="noopener">talerpool.by</a></li>
 							    <li><a href="http://taler-pool.online" target="_blank" rel="noopener">taler-pool.online</a></li>
 							    <li><a href="http://tlr.idcray.com/" target="_blank" rel="noopener">tlr.idcray.com</a></li>
@@ -238,7 +247,7 @@
 								платформы
 								<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							</a>
-							  <ul class="dropdown-menu">
+							  <ul class="dropdown-menu download-dropdown">
 							    <li><a href="files/taler-qt.32.exe.rar" download><i class="fa fa-windows" aria-hidden="true"></i> &nbsp;Win 32</a></li>
 							    <li><a href="files/taler-qt.64.exe.rar" download><i class="fa fa-windows" aria-hidden="true"></i> &nbsp;Win 64</a></li>
 							    <li><a href="files/taler-qt-2-linux" download><i class="fa fa-linux" aria-hidden="true"></i> &nbsp;Linux</a></li>
@@ -254,10 +263,10 @@
 							<h4>Cкачать майнер</h4>
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
 								<!-- <i class="fa fa-windows" aria-hidden="true"></i> -->
-								для windows
+								для Windows
 								<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							</a>
-							  <ul class="dropdown-menu">
+							  <ul class="dropdown-menu download-dropdown">
 							    <li><a class="double" href="files/TalerMinerGUI_CPU_Intel_AMD_v1.3.zip" download>для процессора<br> Intel и AMD</a></li>
 							    <li><a class="double" href="files/TalerMinerGUI_GPU_Nvidia_AMD_v1.3.zip" download>для видео карт<br> nVidia и AMD</a></li>
 							  </ul>
@@ -277,7 +286,6 @@
 			</div>
 		</div>
 	</section>
-
 <!-- SPECIFICATION -->
 	<section class="specification pd100">
 		<div class="container">
@@ -293,7 +301,6 @@
 						<li>Целевое время блока<span class="mobile">: </span> <span class="dots">............................</span> <span class="blue">5 min</span></li>
 						<li>Размер вознаграждения за блок<span class="mobile">: </span> <span class="dots">.......</span> <span class="blue">50 монет</span></li>
 						<li>Уполовинивание вознаграждения<span class="mobile">: </span> <span class="dots">....</span> <span class="blue">есть</span></li>
-						<!-- <li>Block size (actual)<span class="mobile">: </span> <span class="dots">......</span></li> -->
 						<li>Коррекция сложности<span class="mobile">: </span> <span class="dots">...........................</span> <span class="blue">каждый блок</span></li>
 					</ul>
 				</div>
@@ -305,8 +312,6 @@
 			</div>
 		</div>
 	</section>
-
-
 <!-- ROAD MAP -->
 	<section class="roadmap pd100">
 		<h2 class="section-header">Дорожная карта</h2>
@@ -357,7 +362,6 @@
 									</div>
 								</div>
 							</li>							
-					
 							<!-- roadmap-item -->
 							<li class="roadmap-list-item">
 								<div class="row">
@@ -420,92 +424,87 @@
 									</div>
 								</div>
 							</li>
-
 						</ul>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section>
-
 <!-- PARPHNERS -->
-<section class="parthners pd100">
-	<h2 class="section-header">Наши партнеры</h2>
-	<div class="container">
-		<div class="row">
-			<ul>
-				<li><a href="https://ecocity.by" target="_blank" rel="noopener"><img src="img/parthners/ecologija.png" class="img-responsive" alt="ecologia goroda"></a></li>
-				<li><a href="https://xn--b1agmqfm7c1a0b.xn--90ais/" target="_blank" rel="noopener"><img src="img/parthners/viejshnoria.png" class="img-responsive" alt="veishnoria"></a></li>
-				<li><a href="https://ultra.by" target="_blank" rel="noopener"><img src="img/parthners/ultra_by.png" class="img-responsive" alt="ultra.by"></a></li>
-				<li><a href="https://platilib.com/" target="_blank" rel="noopener"><img src="img/parthners/platilib.png" class="img-responsive" alt="platilib.com"></a></li>
-				<li><a href="https://gorodvitebsk.by/firms/ell" target="_blank" rel="noopener"><img src="img/parthners/ell.png" class="img-responsive" alt="gorodvitebsk.by/firms/ell"></a></li>
-				<li><a href="http://sheydepari.business.site" target="_blank" rel="noopener"><img src="img/parthners/atelje.jpg" class="img-responsive" alt="sheydepari.business.site"></a></li>
-			</ul>
+	<section class="parthners pd100">
+		<h2 class="section-header">Наши партнеры</h2>
+		<div class="container">
+			<div class="row">
+				<ul>
+					<li><a href="https://ecocity.by" target="_blank" rel="noopener"><img src="img/parthners/ecologija.png" class="img-responsive" alt="ecologia goroda"></a></li>
+					<li><a href="https://xn--b1agmqfm7c1a0b.xn--90ais/" target="_blank" rel="noopener"><img src="img/parthners/viejshnoria.png" class="img-responsive" alt="veishnoria"></a></li>
+					<li><a href="https://ultra.by" target="_blank" rel="noopener"><img src="img/parthners/ultra_by.png" class="img-responsive" alt="ultra.by"></a></li>
+					<li><a href="https://platilib.com/" target="_blank" rel="noopener"><img src="img/parthners/platilib.png" class="img-responsive" alt="platilib.com"></a></li>
+					<li><a href="https://gorodvitebsk.by/firms/ell" target="_blank" rel="noopener"><img src="img/parthners/ell.png" class="img-responsive" alt="gorodvitebsk.by/firms/ell"></a></li>
+					<li><a href="http://sheydepari.business.site" target="_blank" rel="noopener"><img src="img/parthners/atelje.jpg" class="img-responsive" alt="sheydepari.business.site"></a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
-</section>
-
+	</section>
 <!-- COMMUNITY -->
-<section id="community" class="community pd100">
-	<h2 class="section-header">Сообщество</h2>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<h3 class="text-center">Официальные ресурсы</h3>
-			</div>
-		</div>
-		<div class="buttons">
+	<section id="community" class="community pd100">
+		<h2 class="section-header">Сообщество</h2>
+		<div class="container">
 			<div class="row">
-				<div class="col-sm-4"><a class="gradient-btn" href="https://vk.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-vk" aria-hidden="true"></i> Вконтакте</a></div>
-				<div class="col-sm-4"><a class="gradient-btn" href="https://www.facebook.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></div>
-				<div class="col-sm-4"><a class="gradient-btn" href="https://www.instagram.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> Instagram</a></div>
+				<div class="col-xs-12">
+					<h3 class="text-center">Официальные ресурсы</h3>
+				</div>
 			</div>
-		</div>
-		<div class="buttons">			
+			<div class="buttons">
+				<div class="row">
+					<div class="col-sm-4"><a class="gradient-btn" href="https://vk.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-vk" aria-hidden="true"></i> Вконтакте</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://www.facebook.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://www.instagram.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> Instagram</a></div>
+				</div>
+			</div>
+			<div class="buttons">			
+				<div class="row">
+					<div class="col-sm-4"><a class="gradient-btn" href="https://t.me/TalerOfChat" target="_blank" rel="noopener"><i class="fa fa-telegram" aria-hidden="true"></i> TalerOfChat</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://twitter.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://talercoin.by" target="_blank" rel="noopener">talercoin.by</a></div>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col-sm-4"><a class="gradient-btn" href="https://t.me/TalerOfChat" target="_blank" rel="noopener"><i class="fa fa-telegram" aria-hidden="true"></i> TalerOfChat</a></div>
-				<div class="col-sm-4"><a class="gradient-btn" href="https://twitter.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></div>
-				<div class="col-sm-4"><a class="gradient-btn" href="https://talercoin.by" target="_blank" rel="noopener">talercoin.by</a></div>
+				<div class="col-xs-12">
+					<p class="text-center">Дополнительную информацию вы можете получить на тематических ресурсах сети</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="community-links">
+						<li class="community-links-item"><a href="https://t.me/TalerOfChat" target="_blank" rel="noopener">t.me/TalerOfChat</a><span>.................</span><strong>официальное</strong> сообщество Беларуской криптовалюты Талер.</li>
+						<li class="community-links-item"><a href="https://t.me/TLRobmen" target="_blank" rel="noopener">t.me/TLRobmen</a><span>....................</span>обмен/продажа товаров за Талеры.</li>
+						<li class="community-links-item"><a href="https://t.me/MinerTalerChat" target="_blank" rel="noopener">t.me/MinerTalerChat</a><span>.............</span>майнеры Талерa всегда подскажут вам как настроить оборудование для майнинга.</li>
+						<li class="community-links-item"><a href="http://taleronline.com" target="_blank" rel="noopener">TalerOnline.com</a><span>...................</span>онлайн журнал о криптовалютах.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="text-center">Видео инструкции на <strong>YouTube</strong></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="community-links">
+						<li class="community-links-item"><a href="https://youtu.be/RCweFDpfdnQ" target="_blank" rel="noopener">youtu.be/RCweFDpfdnQ</a><span>.........</span>инструкция по торгам на <a href="https://taler-ex.online/">бирже</a></li>
+						<li class="community-links-item"><a href="https://youtu.be/Wlsk4_bOdzY" target="_blank" rel="noopener">youtu.be/Wlsk4_bOdzY</a><span>.........</span>инструкция по установке <a href="#download">кошелька</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12">
-				<p class="text-center">Дополнительную информацию вы можете получить на тематических ресурсах сети</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-				<ul class="community-links">
-					<li class="community-links-item"><a href="https://t.me/TalerOfChat" target="_blank" rel="noopener">t.me/TalerOfChat</a><span>.................</span><strong>официальное</strong> сообщество Беларуской криптовалюты Талер.</li>
-					<li class="community-links-item"><a href="https://t.me/TLRobmen" target="_blank" rel="noopener">t.me/TLRobmen</a><span>....................</span>обмен/продажа товаров за Талеры.</li>
-					<li class="community-links-item"><a href="https://t.me/MinerTalerChat" target="_blank" rel="noopener">t.me/MinerTalerChat</a><span>.............</span>майнеры Талерa всегда подскажут вам как настроить оборудование для майнинга.</li>
-					<li class="community-links-item"><a href="http://taleronline.com" target="_blank" rel="noopener">TalerOnline.com</a><span>...................</span>онлайн журнал о криптовалютах.</li>
-				</ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12">
-				<p class="text-center">Видео инструкции на <strong>Youtube</strong></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-				<ul class="community-links">
-					<li class="community-links-item"><a href="https://youtu.be/RCweFDpfdnQ" target="_blank" rel="noopener">youtu.be/RCweFDpfdnQ</a><span>.........</span>инструкция по торгам на <a href="https://taler-ex.online/">бирже</a></li>
-					<li class="community-links-item"><a href="https://youtu.be/Wlsk4_bOdzY" target="_blank" rel="noopener">youtu.be/Wlsk4_bOdzY</a><span>.........</span>инструкция по установке <a href="#download">кошелька</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
+	</section>
 
 
  	<footer>
  		<div class="footer-big">
  			<div class="container">
  				<div class="row">
-
  					<div class="col-sm-3">
  						<div class="footer-about">
  							<img class="img-responsive footer-img" src="img/taler.png" alt="талер">
@@ -536,7 +535,6 @@
  				</div>
  			</div>
  		</div> <!-- большой футер -->
-
  		<div class="footer-small">
 			<div class="container">
 				<div class="row">
@@ -547,8 +545,6 @@
 			</div>
  		</div><!-- маленький футер -->
 	</footer>
-	
-
 
 	<i class="fa fa-chevron-circle-up" id="go-top" aria-hidden="true"></i>	
 
