@@ -665,3 +665,17 @@ footer a:active {
 #go-top:hover {
   color: rgba(0, 0, 0, 0.5);
 }
+/*** MODAL REMODAL **/
+.remodal {
+  text-align: left;
+  font-weight: 400;
+}
+.remodal p {
+  margin-top: 10px;
+}
+.remodal p:last-of-type {
+  margin-top: 20px;
+}
+.remodal h1 {
+  color: #000;
+}
