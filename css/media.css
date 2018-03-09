@@ -11,7 +11,16 @@
     .specification-image img {
         display: none;
     }
-        .features-box-text {
+    .mobile-image img {
+        display: none;
+    }
+    .mobile h2, .mobile p, .mobile-button {
+        text-align: center;
+    }
+    .mobile {
+        min-height: 100%;
+    }
+    .features-box-text {
         border-left: none;
         padding-right: 1rem;
         padding-left: 2rem;
