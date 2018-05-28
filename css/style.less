@@ -284,6 +284,26 @@ ul.lang-dropdown {
 		}
 	}
 }
+.main-menu-new {
+	display: inline-block;
+	color: @orange;
+	font-size: 18px;
+	font-weight: 700;
+}
+@keyframes new {
+  from {
+	opacity: 0;
+  }
+  50% {
+	opacity: 1;
+  }
+  100% {
+	opacity: 0; 
+  } 
+}
+.main-menu-new {
+  animation: new 1.5s infinite ease-in-out;
+}
 /*** FEATURES **/
 
 .features {

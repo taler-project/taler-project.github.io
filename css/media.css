@@ -28,6 +28,9 @@
     .roadmap-date {
         text-align: left;
     }
+    .main-menu-new {
+        display: none
+    }
 }
 
 /* Small Devices, Tablets */
