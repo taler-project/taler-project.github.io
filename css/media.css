@@ -31,6 +31,9 @@
     .main-menu-new {
         display: none
     }
+    a.online-wallet-btn {
+        margin-top: 30px;
+    }
 }
 
 /* Small Devices, Tablets */
