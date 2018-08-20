@@ -3,5 +3,8 @@ Host: http://taler.site
 User-agent: Yandex
 Disallow: 
 
+User-agent: Creator
+Disallow: /
+
 User-agent: *
 Disallow: 
