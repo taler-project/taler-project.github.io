@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
@@ -6,19 +6,30 @@
 <html lang="ru">
 <!--<![endif]-->
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30023363-8"></script>
+	<script>
+  window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+        gtag('config', 'UA-30023363-8');
+	</script>
+
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="Талер - анонимная криптовалюта с открытым кодом. Не подвержена девальвации, имеет многоцелевое использование. Полная документация " />
+	<meta name="description" content="Талер - первая белорусская криптовалюта. Не имеет владельца. Поддерживается сообществом. Имеет многоцелевое использование. Сайт команды разработчиков" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta property="og:type" content="website">
-	  <meta property="og:title" content="Талер - независимая белорусская криптовалюта (Taler, TLR)" />
-      <meta property="og:description" content="Талер - анонимная криптовалюта с открытым кодом. Не подвержена девальвации, имеет многоцелевое использование. Полная документация, кошелки, майнеры" />
-      <meta property="og:url" content="https://taler.site/" />
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Талер (Taler, TLR) - первая белорусская криптовалюта." />
+      <meta property="og:description" content="Талер - криптовалюта с гибридным алгоритмом POS/POW. В талере есть возможность стейкинга монет (POS-майнинг) с доходностью около 6% годовых.  Сеть запущена в сентябре 2017 года." />
+      <meta property="og:url" content="https://talercrypto.com/" />
       <meta property="og:image" content="social.jpg" />
       <meta name="yandex-verification" content="bda055b8dbcbf22a" />
       <meta name="yandex-verification" content="c42c8c9ed42a2f2d" />
 	
-	<title>Талер - независимая белорусская криптовалюта (Taler, TLR)</title>
+	<title>Талер (Taler, TLR) - первая белорусская криптовалюта.</title>
 	
 	<link rel="shortcut icon" href="fav.ico" type="image/x-icon"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
@@ -27,7 +38,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="css/style.css?v=1.2"> 
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
@@ -57,7 +68,7 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	      	<li><a href="https://wallet.taler.club/">ОНЛАЙН КОШЕЛЕК</a></li>
+	      	<li><a href="#">ОНЛАЙН КОШЕЛЕК</a></li>
 	        <li><a href="#modal">ПРЕСС-РЕЛИЗ</a></li>
 	        <li><a href="#download">ГДЕ ВЗЯТЬ</a></li>
 	        <li><a href="https://github.com/taler-project">РАЗРАБОТЧИКАМ</a></li>
@@ -75,7 +86,7 @@
 					<div class="col-sm-12">
 						<nav>
 							<ul class="main-menu-list menu">
-								<li class="main-menu-item"><a href="https://wallet.taler.club/" target="_blank" rel="noopener">Онлайн кошелек</a></li>
+								<li class="main-menu-item"><a href="https://explorer.talercrypto.com" target="_blank" rel="noopener">Explorer</a></li>
 								<li class="main-menu-item"><a href="#modal">Пресс-релиз</a></li>
 								<li class="main-menu-item"><a href="#download">Где взять</a></li>
 								<li class="main-menu-item"><a href="https://github.com/taler-project" target="_blank" rel="noopener">Разработчикам</a></li>
@@ -103,22 +114,22 @@
 								<img class="main-down img-responsive" src="img/stone-logo2.png" alt="Талер">
 							</div>
 							<div>
-								<img class="shadow img-responsive" src="img/shadow2.png" alt="тень">
+								<!-- <img class="shadow img-responsive" src="img/shadow2.png" alt="тень"> -->
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
-						<h1>первая белорусская криптовалюта</h1>
+						<h1>Белорусская криптовалюта</h1>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-3 col-sm-offset-3 col-xs-12 text-center">
-							<a class="gradient-btn" href="#download">Начать!</a>
+							<a class="gradient-btn" href="#download">С чего начать?</a>
 					</div>
 					<div class="col-sm-3 col-xs-12 text-center">
-						<a class="gradient-btn" href="files/Taler_WhiteBook_0_9_edition.doc" download>Whitepaper</a>
+						<a class="gradient-btn" href="#modal">Хардфорк (анонс)</a>
 					</div>
 				</div>
 			</div>
@@ -127,12 +138,12 @@
 
 <!-- FEATURES -->
 	<section id="features" class="features pd100">
-		<h2 class="section-header">Почему Талер</h2>
+		<h2 class="section-header">Почему Талер?</h2>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 col-sm-12">
 					<p class="features-text">
-						Талер&nbsp;&mdash; это анонимная криптовалюта с&nbsp;открытым кодом, не&nbsp;подверженная девальвации, которую можно использовать для разных целей&nbsp;&mdash; от&nbsp;мелких частных расчетов, до&nbsp;накопительной функции и&nbsp;использования в&nbsp;сети белорусских бизнесов-партнеров!
+						Талер&nbsp;&mdash; это криптовалюта с&nbsp;открытым кодом и  практически&nbsp; мгновенными транзакциями, которую удобно использовать в качестве цифровых денег: от мелких частных расчетов до&nbsp;накопительной функции и&nbsp;применения в&nbsp;бизнес-процессах!
 					</p>
 				</div>
 			</div>
@@ -145,7 +156,7 @@
 					<div class="col-sm-5 ">
 						<div class="features-box-text">
 							<h3>Децентрализация</h3>
-							<p>блокчейн Талера никем не&nbsp;контролируется и&nbsp;существует сам по&nbsp;себе. Любой может создавать свою инфраструктуру или использовать Талер как пожелает</p>
+							<p>У Талера&nbsp;нет владельца или директора. Талер существует, пока существует&nbsp;сообщество его пользователей. Любой может покупать, продавать, хранить, дарить, завещать и использовать Талер как пожелает.</p>
 						</div>
 					</div>
 				</div>
@@ -156,7 +167,7 @@
 					<div class="col-sm-5 ">
 						<div class="features-box-text">
 							<h3>Открытое сообщество</h3>
-							<p>готово принимать и&nbsp;поощрять любые идеи по&nbsp;использованию и&nbsp;улучшению инфраструктуры</p>
+							<p>не связано границами, языковыми или религиозными барьерами. Мы рады каждому пользователю и готовы принимать и&nbsp;поощрять любые инициативы по&nbsp;использованию Талера&nbsp;в повседневной жизни.</p>
 						</div>
 					</div>
 				</div>
@@ -169,7 +180,7 @@
 					<div class="col-sm-5">
 						<div class="features-box-text">
 							<h3>Справедливый алгоритм</h3>
-							<p>делает более эффективным майнинг на&nbsp;обычных устройствах, а&nbsp;не&nbsp;только на&nbsp;дорогих ASIC фермах</p>
+							<p>позволяет добывать монету как на GPU, так и на CPU. Гибридный майнинг PoW/PoS Защищает от атаки 51%.</p>
 						</div>
 					</div>
 				</div>
@@ -180,7 +191,7 @@
 					<div class="col-sm-5 ">
 						<div class="features-box-text">
 							<h3>Первые в Беларуси</h3>
-							<p>&mdash;&nbsp;первой стране в&nbsp;регионе, которая полностью легализовала криптовалюты</p>
+							<p>&mdash;&nbsp;маленькой стране, которую&nbsp;знают благодаря бессменному президенту, олимпийским спортсменам и World Of Tanks.</p>
 						</div>
 					</div>
 				</div>
@@ -193,7 +204,7 @@
 					<div class="col-sm-5">
 						<div class="features-box-text ">
 							<h3>Развитие в применении</h3>
-							<p>Талер должен стать посредником между клиентами и&nbsp;белорусским бизнесом, а&nbsp;не&nbsp;просто спекулятивной игрушкой</p>
+							<p>Талер стремится стать надежным, с быстрыми транзакциями и высокой степенью безопасности, средством взаиморасчетов и сбережения капитала, без налогов и комиссий.</p>
 						</div>
 					</div>
 				</div>
@@ -204,7 +215,7 @@
 					<div class="col-sm-5 ">
 						<div class="features-box-text">
 							<h3>Талер&nbsp;&mdash; это наша история</h3>
-							<p>этот бренд способен объединить всех беларусов, это больше чем просто название монеты, это наши корни</p>
+							<p>300 лет назад на этих землях короли чеканили серебряный Талер. Теперь простые белорусы майнят Талер цифровой. Связь истории, связь поколений.</p>
 						</div>
 					</div>
 				</div>
@@ -220,19 +231,19 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="download-box">
 						<div class="download-box-inner">
-							<img src="img/icons/buy.png" alt="купить" class="wow zoomIn" >
-							<h4>Купить Талер</h4>
+							<img src="img/icons/buy.png" alt="продать" class="wow zoomIn" >
+							<h4>Продать Талер</h4>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 								биржи
 								<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							</a>
 							  <ul class="dropdown-menu download-dropdown">
-							    <li><a href="https://stocks.exchange/trade/TLR/BTC" target="_blank" rel="noopener">stocks.exchange</a></li>
-							    <li><a href="https://crex24.com" target="_blank" rel="noopener">crex24</a></li>
+						            <li><a href="https://crex24.com/ru/exchange/TLR-BTC" target="_blank" rel="noopener">crex24</a></li>
+							    <li><a href="https://app.stex.com/en/trade/pair/BTC/TLR" target="_blank" rel="noopener">stex.com</a></li>
 							    <li><a href="https://btc-trade.com.ua" target="_blank" rel="noopener">btc-trade</a></li>
-							    <li><a href="https://coinstock.me/" target="_blank" rel="noopener">coinstock</a></li>
-							    <li><a href="https://bitexlive.com/exchange/BTC-TLR" target="_blank" rel="noopener">bitexlive</a></li>
-							    <li><a href="https://exion.io/" target="_blank" rel="noopener">exion</a></li>
+							    <li><a href="https://exion.io/home/market/TLR:UAH" target="_blank" rel="noopener">exion.io</a></li>
+                                                            <li><a href="https://www.occe.io/tlr_btc" target="_blank" rel="noopener">occe.io</a></li>
+
 							  </ul>
 						</div>
 					</div>
@@ -247,18 +258,10 @@
 								<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							</a>
 							  <ul class="dropdown-menu download-dropdown">
-							    <li><a href="https://pool.vie.today" target="_blank" rel="noopener">pool.vie.today 0%</a></li>
-                                                            <li><a href="https://pool.taler.club" target="_blank" rel="noopener">pool.taler.club 0%</a></li>
-							    <li><a href="http://dragongoldpool.tk" target="_blank" rel="noopener">dragongoldpool.tk 0.1%</a></li>
-							    <li><a href="http://talerpool.by" target="_blank" rel="noopener">talerpool.by 0.2% </a></li>
-							    <li><a href="http://blockmasters.co" target="_blank" rel="noopener">blockmasters.co 0.25%</a></li>
-							    <li><a href="http://zergpool.com/" target="_blank" rel="noopener">zergpool.com 0.5%</a></li>
-							    <li><a href="https://tnthash.fun/" target="_blank" rel="noopener">tnthash.fun 0.5%</a></li>
-							    <li><a href="https://fairmine.pro/" target="_blank" rel="noopener">fairmine.pro 0.7%</a></li>
-							    <li><a href="http://tlr.idcray.com/" target="_blank" rel="noopener">tlr.idcray.com 1%</a></li>
-							    <!-- <li><a href="http://mineblocks.ch/" target="_blank" rel="noopener">mineblocks.ch</a></li> -->
-							    <!-- <li><a href="https://smithpool.net/" target="_blank" rel="noopener">smithpool.net</a></li> -->
-							    <!-- <li><a href="https://pool.v-integ.com" target="_blank" rel="noopener">pool.v-integ.com</a></li> -->
+                                                            <li><a href="https://pool.vie.today" target="_blank" rel="noopener">pool.vie.today 0%</a></li>
+                                                            <li><a href="https://ahashpool.com" target="_blank" rel="noopener">ahashpool.com</a></li>
+                                                            <li><a href="http://zergpool.com/" target="_blank" rel="noopener">zergpool.com</a></li>
+
 							  </ul>
 						</div>
 					</div>
@@ -273,11 +276,11 @@
 								<i class="fa fa-chevron-down" aria-hidden="true"></i>
 							</a>
 							  <ul class="dropdown-menu download-dropdown">
-							    <li><a href="files/taler-qt.32.exe.rar" download><i class="fa fa-windows" aria-hidden="true"></i> &nbsp;Win 32</a></li>
-							    <li><a href="files/taler-qt.64.exe.rar" download><i class="fa fa-windows" aria-hidden="true"></i> &nbsp;Win 64</a></li>
-							    <li><a href="files/taler-qt-2-linux" download><i class="fa fa-linux" aria-hidden="true"></i> &nbsp;Linux</a></li>
-							    <li><a href="files/Taler-Qt-High-Sierra.dmg" download><i class="fa fa-apple" aria-hidden="true"></i> &nbsp;Mac</a></li>		
-							    <li><a href="https://play.google.com/store/apps/details?id=xplatforms.taler.wallet" target="_blank" rel="noopener"><i class="fa fa-android"></i></i> &nbsp;Android</a></li>    
+							    <li><a href="https://github.com/taler-project/taler/releases/download/0.16.3.3/taler-qt.exe.rar" download><i class="fa fa-windows" aria-hidden="true"></i> &nbsp;Win</a></li>
+							    <li><a href="https://github.com/taler-project/taler/releases/download/0.16.3.3/taler-linux-qt64" download><i class="fa fa-linux" aria-hidden="true"></i> &nbsp;Linux</a></li>
+							    <li><a href="https://github.com/taler-project/taler/releases/download/0.16.3.3/taler.tar.gz" download><i class="fa fa-linux" aria-hidden="true"></i> &nbsp;Linux-cli</a></li>
+							    <li><a href="https://github.com/taler-project/taler/releases/download/0.16.3.3/Taler.dmg" download><i class="fa fa-apple" aria-hidden="true"></i> &nbsp;Mac</a></li>		
+							    <li><a href="https://play.google.com/store/apps/details?id=net.vovanchik.talerwallet" target="_blank" rel="noopener"><i class="fa fa-android"></i></i> &nbsp;Android</a></li> 
 							  </ul>
 						</div>
 					</div>
@@ -322,12 +325,15 @@
 				<div class="col-md-8">
 					<ul class="specification-list">
 						<li>Эмиссия<span class="mobile">: </span> <span class="dots">.....................................................</span> <span class="blue">23 333 333 монет</span> </li>
-						<li>PoW алгоритм<span class="mobile">: </span> <span class="dots">..........................................</span> <span class="blue">Lyra2z</span></li>
-						<li>Mining Hardware<span class="mobile">: </span> <span class="dots">......................................</span><span class="blue"> CPU, GPU</span></li>
-						<li>Целевое время блока<span class="mobile">: </span> <span class="dots">............................</span> <span class="blue">5 min</span></li>
-						<li>Размер вознаграждения за блок<span class="mobile">: </span> <span class="dots">.......</span> <span class="blue">50 монет</span></li>
+						<li>PoW/PoS алгоритм<span class="mobile">: </span> <span class="dots">.................................</span> <span class="blue">Lyra2z</span></li>
+						<li>Mining Hardware<span class="mobile">: </span> <span class="dots">......................................</span><span class="blue"> CPU, GPU, PoS</span></li>
+						<li>Целевое время блока<span class="mobile">: </span> <span class="dots">............................</span> <span class="blue">1 min</span></li>
+						<li>Размер вознаграждения за блок<span class="mobile">: </span> <span class="dots">.......</span> <span class="blue">7 TLR</span></li>
 						<li>Уполовинивание вознаграждения<span class="mobile">: </span> <span class="dots">....</span> <span class="blue">есть</span></li>
 						<li>Коррекция сложности<span class="mobile">: </span> <span class="dots">...........................</span> <span class="blue">каждый блок</span></li>
+						<li>Атомарные Свопы</li>
+						<li>Segwit</li>
+						<li>Уникальный формат адреса Bech32</li>
 					</ul>
 				</div>
 				<div class="col-md-4">
@@ -340,7 +346,7 @@
 	</section>
 
 
-<!-- MOBILE APP -->	
+<!-- MOBILE APP 	
 	<section class="mobile pd100">
 		<div class="container">
 			<h2 class="section-header">Мобильное приложение</h2>
@@ -355,27 +361,27 @@
 				<div class="col-md-7">
 					<p>Покупай и продавай Талеры через телефон с помощью мобильного приложения</p>
 					<div class="mobile-button">
-						<a href="https://play.google.com/store/apps/details?id=xplatforms.taler.wallet"><img src="img/androidstorelogo2.png" alt="play market"></a>
-						<a href="https://play.google.com/store/apps/details?id=site.taler.wallet&hl=ru"><img src="img/androidstorelogo3.png" alt="play market"></a>
-					</div>
+						<a href="https://play.google.com/store/apps/details?id=site.taler.wallet&hl=ru"><img src="img/androidstorelogo2.png" alt="play market"></a>
+											</div>
 				</div>
 			</div>
 		</div>
 	</section>
-<!-- ONLINE WALLET -->
+-->
+<!-- ONLINE WALLET
 	<section class="online-wallet">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 					<h3>Онлайн кошелёк Талер <i class="fas fa-wallet"></i></h3>
-					<a class="online-wallet-btn" href="https://wallet.taler.club/" target="_blank" rel="noopener">Зарегистрироваться</a>
+					<a class="online-wallet-btn" href="#" target="_blank" rel="noopener">Зарегистрироваться</a>
 				</div>
 				<div class="col-md-6">
 					
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
 
 <!-- ROAD MAP -->
 	<section class="roadmap pd100">
@@ -389,11 +395,11 @@
 							<li class="roadmap-list-item">
 								<div class="row">
 									<div class="col-xs-3 roadmap-date">
-										<time>2017</time><i class="fa fa-chevron-down done" aria-hidden="true"></i>
+										<time>2017</time><i class="fa fa-chevron-down process" aria-hidden="true"></i>
 										<p>сентябрь</p>
 									</div>
 									<div class="col-xs-8 roadmap-text">
-										<p class="done">
+										<p class="">
 											Тестовый запуск на алгоритме Scrypt.
 										</p>
 									</div>
@@ -403,11 +409,11 @@
 							<li class="roadmap-list-item">
 								<div class="row">
 									<div class="col-xs-3 roadmap-date">
-										<time>2017</time><i class="fa fa-chevron-down done" aria-hidden="true"></i>
+										<time>2017</time><i class="fa fa-chevron-down process" aria-hidden="true"></i>
 										<p>ноябрь</p>
 									</div>
 									<div class="col-xs-8 roadmap-text">
-										<p class="done">
+										<p class="">
 											Переход на рабочий алгоритм Lyra2z.
 										</p>
 									</div>
@@ -417,11 +423,11 @@
 							<li class="roadmap-list-item">
 								<div class="row">
 									<div class="col-xs-3 roadmap-date">
-										<time>2017</time><i class="fa fa-chevron-down done" aria-hidden="true"></i>
+										<time>2017</time><i class="fa fa-chevron-down process" aria-hidden="true"></i>
 										<p>декабрь</p>
 									</div>
 									<div class="col-xs-8 roadmap-text">
-										<p class="done">
+										<p class="">
 											Запуск криптовалютной биржи.
 										</p>
 									</div>
@@ -431,11 +437,11 @@
 							<li class="roadmap-list-item">
 								<div class="row">
 									<div class="col-xs-3 roadmap-date">
-										<time>2018</time><i class="fa fa-chevron-down done" aria-hidden="true"></i>
+										<time>2018</time><i class="fa fa-chevron-down process" aria-hidden="true"></i>
 										<p>январь</p>
 									</div>
 									<div class="col-xs-8 roadmap-text done">
-										<p class="done">Разработка клиента для Mac.</p>
+										<p class="">Разработка клиента для Mac.</p>
 									</div>
 								</div>
 							</li>							
@@ -443,10 +449,10 @@
 							<li class="roadmap-list-item">
 								<div class="row">
 									<div class="col-xs-3 roadmap-date">
-										<time>2018</time><i class="fa fa-chevron-down done" aria-hidden="true"></i>
+										<time>2018</time><i class="fa fa-chevron-down process" aria-hidden="true"></i>
 										<p>февраль</p>
 									</div>
-									<div class="col-xs-8 roadmap-text done">
+									<div class="col-xs-8 roadmap-text ">
 										<ul class="roadmap-list-inner">
 											<li><p>Разработка клиента для Android.</p></li>
 											<li><p>Разработка майнера с&nbsp;графическим интерфейсом.</p></li>
@@ -459,11 +465,11 @@
 							<li class="roadmap-list-item">
 								<div class="row">
 									<div class="col-xs-3 roadmap-date">
-										<time>2018</time><i class="fa fa-chevron-down done " aria-hidden="true"></i>
+										<time>2018</time><i class="fa fa-chevron-down process " aria-hidden="true"></i>
 										<p class="">март</p>
 									</div>
 									<div class="col-xs-8 roadmap-text done">
-											<p class="done">Запуск партнёрских программ с&nbsp;бизнесами&nbsp;&mdash; с&nbsp;учётом особенностей законодательства для обращения токенов как бонусных баллов.</p>
+											<p class="">Запуск партнёрских программ с&nbsp;бизнесами&nbsp;&mdash; с&nbsp;учётом особенностей законодательства для обращения токенов как бонусных баллов.</p>
 									</div>
 								</div>
 							</li>
@@ -472,11 +478,11 @@
 							<li class="roadmap-list-item">
 								<div class="row">
 									<div class="col-xs-3 roadmap-date">
-										<time>2018</time><i class="fa fa-chevron-down done " aria-hidden="true"></i>
+										<time>2018</time><i class="fa fa-chevron-down process " aria-hidden="true"></i>
 										<p class="">апрель</p>
 									</div>
 									<div class="col-xs-8 roadmap-text done">
-											<p class="done">Продвижение талера в соцсетях с использованием баунти-программы.</p>
+											<p class="">Продвижение талера в соцсетях с использованием баунти-программы.</p>
 									</div>
 								</div>
 							</li>
@@ -508,10 +514,78 @@
 											<li><p>Создать шлюз с API для интернет-магазинов, который позволяет получать оплату в талерах.</p></li>
 											<li><p>Создать демонстрационный маркетплейс с использованием талера.</p></li>
 											<li><p>Интеграции с международными платежными агрегаторами.</p></li>
+<li><p>Дальнейшее развитие Талера как средства взаиморасчетов, накопления и сохранения капитала, поддержание технологического уровня монеты в соответствии с новейшими достижениями криптоэкономики </p></li>
+
+
 										</ul>
 									</div>
 								</div>
 							</li>
+<!-- roadmap-item -->
+							<li class="roadmap-list-item">
+								<div class="row">
+									<div class="col-xs-3 roadmap-date">
+										<time>2018</time><i class="fa fa-chevron-down process " aria-hidden="true"></i>
+										<p class="">сентябрь-декабрь</p>
+									</div>
+									<div class="col-xs-8 roadmap-text done">
+											<p class="">Подготовка программного кода к хардфорку, с внедрением новых возможностей для монеты</p>
+									</div>
+								</div>
+							</li>
+<!-- roadmap-item -->
+							<li class="roadmap-list-item">
+								<div class="row">
+									<div class="col-xs-3 roadmap-date">
+										<time>2019</time><i class="fa fa-chevron-down process " aria-hidden="true"></i>
+										<p class="">январь</p>
+									</div>
+									<div class="col-xs-8 roadmap-text done">
+											<p class="">Тестирование программного кода и тестовых кошельков в закрытом режиме группой тестировщиков. Подготовка к анонсу хардфорка</p>
+									</div>
+								</div>
+							</li>
+<!-- roadmap-item -->
+							<li class="roadmap-list-item">
+								<div class="row">
+									<div class="col-xs-3 roadmap-date">
+										<time>2019</time><i class="fa fa-chevron-down process " aria-hidden="true"></i>
+										<p class="">февраль</p>
+									</div>
+									<div class="col-xs-8 roadmap-text done">
+											<p class="">Хардфорк на блоке №130 000. Рекламная кампания, взаимодействие со СМИ, распространение информации о новых возможностях и перспективах монеты</p>
+									</div>
+									
+								</div>
+							</li>
+<!-- roadmap-item -->
+                                                        <li class="roadmap-list-item">
+                                                                <div class="row">
+                                                                        <div class="col-xs-3 roadmap-date">
+                                                                                <time>2019</time><i class="fa fa-chevron-down process " aria-hidden="true"></i>
+                                                                                <p class="">октябрь</p>
+                                                                        </div>
+                                                                        <div class="col-xs-8 roadmap-text done">
+                                                                                        <p class="">Халвинг награды в сети, после 530000 POW блока.
+                                                                        </div>
+
+                                                                </div>
+                                                        </li>
+<!-- roadmap-item -->
+                                                        <li class="roadmap-list-item">
+                                                                <div class="row">
+                                                                        <div class="col-xs-3 roadmap-date">
+                                                                                <time>2020</time><i class="fa fa-chevron-down process " aria-hidden="true"></i>
+                                                                                <p class="">декабрь</p>
+                                                                        </div>
+                                                                        <div class="col-xs-8 roadmap-text done">
+                                                                                        <p class="">Выпуск мобильного кошелька
+                                                                        </div>
+
+                                                                </div>
+                                                        </li>
+
+
 						</ul>
 					</div>
 				</div>
@@ -527,12 +601,10 @@
 					<li><a href="https://ecocity.by" target="_blank" rel="noopener"><img src="img/parthners/ecologija.png" class="img-responsive" alt="ecologia goroda"></a></li>
 					<li><a href="https://xn--b1agmqfm7c1a0b.xn--90ais/" target="_blank" rel="noopener"><img src="img/parthners/viejshnoria.png" class="img-responsive" alt="veishnoria"></a></li>
 					<li><a href="https://ultra.by" target="_blank" rel="noopener"><img src="img/parthners/ultra_by.png" class="img-responsive" alt="ultra.by"></a></li>
-					<li><a href="https://platilib.com/" target="_blank" rel="noopener"><img src="img/parthners/platilib.png" class="img-responsive" alt="platilib.com"></a></li>
-					<li><a href="https://gorodvitebsk.by/firms/ell" target="_blank" rel="noopener"><img src="img/parthners/ell.png" class="img-responsive" alt="gorodvitebsk.by/firms/ell"></a></li>
 					<li><a href="http://sheydepari.business.site" target="_blank" rel="noopener"><img src="img/parthners/atelje.jpg" class="img-responsive" alt="sheydepari.business.site"></a></li>
 					<li><a href="http://rtg.by" target="_blank" rel="noopener"><img src="img/parthners/rtg.png" class="img-responsive" alt="rtg.by"></a></li>			
 					<li><a href="https://vk.com/artmedia.digital" target="_blank" rel="noopener"><img src="img/parthners/artmedia.png" class="img-responsive" alt="artmedia"></a></li>
-					<li><a href="http://www.belgazeta.by/" target="_blank" rel="noopener"><img src="img/parthners/belgazeta.png" class="img-responsive" alt="belgazeta.by/"></a></li>
+			
 				</ul>
 			</div>
 		</div>
@@ -549,16 +621,16 @@
 			</div>
 			<div class="buttons">
 				<div class="row">
-					<div class="col-sm-4"><a class="gradient-btn" href="https://vk.com/taler_coin_official" target="_blank" rel="noopener"><i class="fa fa-vk" aria-hidden="true"></i> Вконтакте</a></div>
-					<div class="col-sm-4"><a class="gradient-btn" href="https://www.facebook.com/talercoinofficial/" target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://vk.com/taler_crypto" target="_blank" rel="noopener"><i class="fa fa-vk" aria-hidden="true"></i> Вконтакте</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://www.facebook.com/cryptotaler/" target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></div>
 					<div class="col-sm-4"><a class="gradient-btn" href="https://www.instagram.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> Instagram</a></div>
 				</div>
 			</div>
 			<div class="buttons">			
 				<div class="row">
-					<div class="col-sm-4"><a class="gradient-btn" href="https://t.me/TalerOfficial" target="_blank" rel="noopener"><i class="fa fa-telegram" aria-hidden="true"></i> TalerOfficial</a></div>
-					<div class="col-sm-4"><a class="gradient-btn" href="https://twitter.com/talerminsk" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></div>
-					<div class="col-sm-4"><a class="gradient-btn" href="https://www.youtube.com/channel/UCJcLFsK07NovkxrUijht5uA" target="_blank" rel="noopener"> <img src="img/icons/youtube.svg" alt="youtube"> Youtube</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://t.me/taler_crypto" target="_blank" rel="noopener"><i class="fa fa-telegram" aria-hidden="true"></i> Taler Crypto</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://twitter.com/taleronline" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></div>
+					<div class="col-sm-4"><a class="gradient-btn" href="https://bitcointalk.org/index.php?topic=2649237.4400" target="_blank" rel="noopener">bitcointalk</a></div>
 				</div>
 			</div>
 			<div class="row">
@@ -569,13 +641,8 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<ul class="community-links">
-						<li class="community-links-item"><a href="https://discordapp.com/invite/C5gTa98" target="_blank" rel="noopener">discordapp.com</a><span>.................</span>Приглашение на дискорд
-
-						<li class="community-links-item"><a href="https://talercoin.by" target="_blank" rel="noopener">talercoin.by</a><span>.................</span><strong>Все</strong> о Талере
-						</li><li class="community-links-item"><a href="https://vk.com/taler_crypto" target="_blank" rel="noopener">taler_crypto</a><span>.................</span><strong>страница</strong> сообщества Талер вКонтакте</li>
-						<li class="community-links-item"><a href="https://t.me/TLRobmen" target="_blank" rel="noopener">t.me/TLRobmen</a><span>....................</span>обмен/продажа товаров за Талеры</li>
-						<li class="community-links-item"><a href="https://t.me/MinerTalerChat" target="_blank" rel="noopener">t.me/MinerTalerChat</a><span>.............</span>майнеры Талерa всегда подскажут вам как настроить оборудование для майнинга</li>
-						<li class="community-links-item"><a href="http://taleronline.com" target="_blank" rel="noopener">TalerOnline.com</a><span>...................</span>онлайн журнал о криптовалютах</li>
+					        <li class="community-links-item"><a href="https://t.me/taler_info" target="_blank" rel="noopener">Taler Info</a><span>.............</span>Новостной канал Taler в Телеграме</li>	
+						
 					</ul>
 				</div>
 			</div>
@@ -608,7 +675,7 @@
  					<div class="col-sm-5">
  						<div class="footer-about">
  							<h3>Контакты</h3>
-							<p>Наш e-mail:<a href="mailto:contact@taler.site"> contact@taler.site</a></p>
+							<p>Наш e-mail:<a href="mailto:contact@talercrypto.com"> contact@talercrypto.com</a></p>
 							<h3>Расскажите о нас</h3>
 								<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 								<script src="//yastatic.net/share2/share.js"></script>
@@ -619,7 +686,7 @@
 						<div class="footer-about">
 							<h3>Документация</h3>
 							<ul>
-								<li><a href="files/Taler_WhiteBook_0_9_edition.doc" download>Whitepaper</a></li>
+								
 								<li><a href="#download">Кошельки</a></li>
 								<li><a href="#download">Майнеры</a></li>
 								<li><a href="files/instruction_Taler.txt" download>Инструкция по установке</a></li>
@@ -634,7 +701,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<p>© 2018 Taler.site | все права защищены</p>
+						<p>© 2018 - 2019 TalerCrypto.com | все права защищены</p>
 					</div>
 				</div>
 			</div>
@@ -644,33 +711,124 @@
 	<!-- MODAL Window -->
 	<div class="remodal" data-remodal-id="modal">
 		<button data-remodal-action="close" class="remodal-close"></button>
-		<strong>Мы имеем честь анонсировать на нынешнее лето два проекта, направленных на развитие проекта «Талер». Эти проекты не противоречат друг другу, а взаимно друг друга дополняют.</strong><br><br>
 
-		<strong>Первый проект – создание токенов Taler Business (TLB)</strong>
-		<p>Существование первой белорусской криптовалюты Талер с 6 октября 2017 года дало её создателям очень хороший опыт. Можно сказать, что в ходе запуска и развития проекта его командой были набиты все возможные шишки. Причина проста: в Беларуси до этого никто и никогда не делал ничего подобного. Тем не менее, Талер оказался достаточно успешен.</p>
-		<p>Изначально создатели Талера предполагали его использование не только как средства для расчётов между людьми, но и как удобный инструмент для частного бизнеса, прежде всего бизнеса малого и среднего. Однако по ходу дела стало понятно, что концепция независимой распределённой сети, неподконтрольной в том числе и её создателям, с полностью рыночным курсом, – хороша для развития Талера как средства расчётов, а также для ряда других применений. Однако подобная концепция не очень удобна для бизнес-применения.</p>
-		<p>Мы поняли: для успешного развития проекта оптимально будет создать и запустить в обращение «родственный» Талеру токен под схожим брендом. А именно: Taler Business (TLB) – выпущенные под этой маркой токены изначально будут ориентированы на интеграцию в В2В и В2С-сервисы. «Родство» с «материнским» Талером подчёркивается использованием того же бренда. Однако будет использоваться иная технология: TLB – это токены, основанные на технологии ERC 20. И это уже международный проект, который с самого начала будет реализовываться на территории Беларуси, России и Украины.</p>
-		<p>Предполагается токены TLB использовать в бизнес-приложениях. «Фишка» проекта в том, что одновременно токены TLB будут обращаться на вторичном рынке аналогично уже хорошо зарекомендовавшим себя Талерам (TLR). То есть токены TLB смогут через пользователей «перетекать» между различными бизнесами. Например: клиент, получивший бонусные TLB за подписку на онлайн-сервис, сможет использовать их для получения дополнительного обслуживания в парикмахерской или массажном салоне. А может продать – или, наоборот, докупить, чтобы подать за TLB рекламу в газету.</p>
-		<p>В данном случае в ходе выпуска токенов Taler Business не предусматривается проведение ICO в его «классическом» виде – то есть для сбора средств (инвестиций). Дело в том, что многие страны сейчас запрещают использование токена как нерегулируемого аналога ценным бумагам, при этом не имея ничего против токена как накладной или сертификата на получение товаров/услуг.</p>
-		<p>ICO – это привлечение финансирования, как в фиатных деньгах, так и в криптовалюте. Традиционно ICO объясняют посредством аналогии с акциями. То есть компания привлекает финансирование в ответ на бездокументарные акции на предъявителя, которые называются токенами или монетами. ICO в классическом виде – это обмен финансирования на токены.</p>
-		<p>В данном случае мы говорим не об ICO, а о TGE (Token Generating Event). Далее, после проведения TGE, распоряжаться имеющимися токенами будет «совет директоров» проекта Taler Business.</p>
-		<p>Имеющиеся в наличии токены TLB будут предоставляться различным бизнесам; при этом проект Taler Business будет содействовать их интеграции в бизнес-процессы – прежде всего через разработку схем использования в бизнесе и создание необходимого ПО.</p>
-		<p>Совет директоров Taler Business будет гласно и публично (насколько этому не будет мешать коммерческая тайна) распределять токены Taler Business (TLB). В каждом случае, когда некий объём TLB передаётся конкретному бизнесу, совет директоров вместе с представителями бизнеса прорабатывает конкретную схему монетизации – то есть бизнес не покупает TLB у проекта Taler Business, а отдаёт некий % от экономического эффекта от их внедрения. В такой ситуации проект Taler Business сам заинтересован, чтобы токены TLB успешно использовались данным конкретным бизнесом.</p>
-		<p>Чтобы подчеркнуть связь токенов TLB с «изначальным» Талером, создатели Taler Business объявляют: все держатели криптомонет TLR могут обратиться в проект Taler Business – и им будет начислено каждому столько токенов TLB, сколько у данного владельца имеется монет TLR. Единственное исключение – токены TLВ не будут начисляться на премайн, то есть на те Талеры, которые находились на кошельках Вейшнории на 26.05.2018. Это делается, чтобы не допустить вброса в обращение неоправданно большого количества токенов TLВ.</p>
-		<p>Руководитель проекта Taler Business - Александр Корнышев.</p><br>
-		<p><strong>Второй проект – прогрессивный хардфорк</strong></p>
-		<p>Прогрессивный хардфорк запланирован в течение июля-августа 2018 года и будет включать в себя переход на гибридный механизм консенсуса сети PoW+PoS, увеличение скорости подтверждения блоков и внедрение поддержки функции «атомарных свопов» для децентрализованного обмена с другими криптовалютами. В результате сеть Талера станет более быстрой и устойчивой к атакам, а майнинг – народным и справедливым.</p>
+
+
+<i>пресс-релиз от 28.01.2019</i>
+<h1>Обновление программного кода (хардфорк сети)</h1>
+
+<p>Команда разработчиков криптовалюты Талер (TLR) подготовила усовершенствованный алгоритм работы монеты. Переход на новый код сети для пользователей произойдет путём простого обновления кошелька. Хардфорк сети талера предусматривает:<br>
+ 
+- Увеличение скорости подтверждения сети в 5 раз, <br>
+- PoS и PoW майнинг, <br>
+- Атомарные свопы, <br>
+- 3 типа адреса (включая шифрованный Bech32). <br>
+
+А также десяток других улучшений скорости, удобства и безопасности монеты.</p> 
+
+<p><b>Когда состоится переход на новый алгоритм работы?</b></p>
+Переход состоится автоматически на блоке номер 130 000. Примерная дата 10 – 12 февраля. Номер текущего блока можно узнать в кошельке. Для этого необходимо нажать кнопку Помощь \ Окно отладки \ Текущее число блоков
+Либо по ссылке: <a href="https://explorer.talercrypto.com/api/getblockcount" target="_blank" rel="noopener">https://explorer.talercrypto.com/api/getblockcount</a>
+
+<p><b>Как скачать и установить новый кошелёк?</b></p>
+Все версии новых кошельков пользователям необходимо скачивать только с сайта <a href="https://talercrypto.com/#download" target="_blank" rel="noopener">https://talercrypto.com/#download</a> <br> 
+Для бирж и разработчиков исходный код монеты по ссылке:
+<a href="https://github.com/taler-project " target="_blank" rel="noopener">https://github.com/taler-project </a>
+
+<p><b>Перед установкой нового кошелька сделайте резервную копию старого кошелька!</b></p>
+Запустите текущий кошелёк, в левом верхнем углу нажмите кнопку Файл/ Сделать резервную копию кошелька. И сохраните файл в надёжном месте на компьютере, дав название файлу wallet.dat
+
+<p>После того как вы сделали бекап кошелька, запустите новую версию кошелька, дождитесь полной синхронизации и проверьте свой баланс на новом кошельке. Старый кошелёк желательно удалить либо переместить в другую папку и больше не запускать, во избежание ошибок и потери средств в старой сети.</p> <br>
+
+<h3>Внешний вид нового кошелька</h3>
+
+<p><img src="img/scrin1.png" class="img-responsive" alt="Внешний вид нового кошелька"></p>
+  
+<p><b>Внимание! Крайне не рекомендуется скачивать кошельки с других сайтов, таких как:
+Taler.site, Taler.club, Tlr.by и других похожих сайтов. <br>
+Они не принадлежат разработчикам и могут нанести вред вашему компьютеру, хранимым монетам либо оказаться мошенническими. 
+Все загрузки необходимо производить только с сайта TalerCrypto.com</b></p>
+
+<h2>Вопросы и ответы:</h2>
+<p><b>Вопрос:</b> Я узнал о форке слишком поздно и не успел обновить кошелёк до 130 000 блока. Мои монеты пропадут?<br>
+<b>Ответ:</b> Нет. Единственное, что нужно сделать перед обновлением после 130 000 блока, это - не совершать транзакции в старом кошельке! Вам необходимо скачать кошелёк, дождаться синхронизации, и убедиться, что ваши монеты на месте. После этого вы можете переводить средства на любые адреса. </p>
+<p><i>Все транзакции, совершённые на старом кошельке (версии 0.15.0.1) до 130 000 блока перейдут в новую сеть с версией кошелька 0.16.1.0 Если вы отправите средства используя старый кошелёк после 130 000 блока, то эти монеты пропадут навсегда и не будут доставлены адресату.</i></p> 
+<p><b>Вопрос:</b> У моего друга установлен кошелёк старой версии (0.15.0.1), а у меня новой (0.16.1.0 ). Смогу ли я ему переслать монеты либо он мне? <br>
+<b>Ответ:</b> До блока № 130000 кошельки работают «синхронно», и ваши монеты дойдут адресату. После 130000-го блока их сможет получить только пользователь нового кошелька (0.16.1.0 ). <br>
+<i>Если вы не уверены, обновил ли кошелёк получатель, то отправьте незначительную сумму талеров ему на адрес, например, 0.01 TLR, и уточните, получил ли он транзакцию. <br> 
+В том случае если транзакция подтвердилась, то можете отправлять остальную сумму. Если транзакцию адресат не получил, то порекомендуйте ему скачать обновлённый кошелёк с сайта TalerCrypto.com</p>
+
+<p>Первое время после форка не все пользователи оперативно обновят кошельки, на это потребуется время. Перед отправкой всегда убеждайтесь, что у получателя установлен новый кошелёк. </i></p>
+
+<p><b>Вопрос:</b> Монеты у меня лежат на бирже. Мне их вывести на новый кошелёк, либо оставить там? <br>
+<b>Ответ:</b> до 130 000 блока лучше вывести к себе на кошелёк, и хранить до тех пор, пока биржа не обновит кошельки. После опубликования информации о том, что биржа обновила исходный код кошелька, монеты можно обратно отправлять на адреса биржи и продолжать торговлю.</p> 
+<p>В том случае если 130 000 блок уже присутствует в сети, но биржа кошельки ещё не обновила, то лучше оставить монеты на бирже до тех пор, пока не поступит информации о том, что данная биржа выполнила обновление. После чего продолжить торговлю.</p> 
+<p><i>Время обновления на биржах напрямую зависит от владельцев бирж, загруженности почтового ящика биржи и других факторов, не зависящих от разработчиков монеты. Если сомневаетесь в обновлении кошельков биржей, то свяжитесь со службой поддержки и задайте им вопрос, обновили ли они кошельки или ещё в процессе.<br> 
+Так же в любом случае перед выводом или депозитом монет на биржу, перешлите «пробную» сумму монет 0.01 TLR на кошелёк биржи или к себе на кошелёк. </i></p>
+</p><b>Вопрос:</b> Что произойдёт если у меня установлен новый кошелёк версии (0.16.1.0), какие действия от меня требуются?<br>
+<b>Ответ:</b> На блоке 130 000 внешне в работе кошелька ничего не изменится, кошелёк автоматически перейдёт на новый алгоритм работы без вашего участия.</p> 
+<p>Из изменений, которые вы заметите:<br>
+ 
+- Скорость подтверждения сети вырастет в 5 раз.<br> 
+- Транзакции будут подтверждаться 1 минуту вместо 5-ти минут.<br> 
+- Полное подтверждение перевода займёт 6 минут (вместо 30 минут ранее).<br> 
+- Если вы держите кошелёк постоянно открытым, то вам на кошелёк периодически будут поступать новые монеты (PoS майнинг)<br>
+
+</p>
+
+<p><b>Вопрос:</b> В описании форка указано, что добавлен PoS-майнинг. Но я держу кошелёк открытым, а мне ничего не капает. Что я не так делаю? <br>
+<b>Ответ:</b>  PoS-майнинг начнёт свою работу после 130 000 блока. Для полноценной работы данного способа майнинга вам необходимо соблюсти несколько простых условий:
+<br>
+1. Получить монеты на свой кошелёк после 130 000 блока. (Можно отправить их самому себе).<br>
+2. Держать кошелёк открытым 24\7 и ждать поступление новых монет в зависимости от суммы поступившей транзакции. <i>(Кратковременное закрытие кошелька не останавливает майнинг, но и новые монеты в этот момент не начисляются. После перезапуска кошелька майнинг продолжается)</i><br>
+3. Новые монеты начисляются в процентном соотношении от суммы поступившей транзакции спустя двое суток. <i>Время созревания монет составляет 48 часов. После этого, с 3-его по 90-й день на ваш кошелёк поступят намайненные монеты, (в зависимости от суммы поступившей транзакции). После этого счётчик сбрасывается и майнинг начинается заново, на те же поступившие суммы.</i><br>
+4. Если вам поступают транзакции каждый день, например, с классического PoW-майнинга, то на каждую поступившую такую транзакцию вы так же будете получать начисления от PoS-майнинга. Учтите, что счётчик включается не на общую сумму монет, собранную на кошельке, а на каждую отдельную транзакцию запускается свой счётчик. <i>Например, в понедельник вы получили 30 талеров, а во вторник 50. В этом случае процент от монет, полученных в понедельник, вы получите в среду, а от монет, полученных во вторник, - не раньше четверга. И так далее. После получения начисленных монет в среду, счётчик сбросится, и монеты снова будут созревать двое суток. Следовательно, следующие начисление произойдёт в пятницу, а второе начисление в субботу. И т.д.</i><br>
+5. Двое суток — это минимальный срок, через который вы начнёте получать выплаты.</p> 
+
+<p><b>Вопрос:</b> Я положил монеты на кошелёк и держу его запущенным 24/7 для начислений PoS майнинга. Но часть монет мне внезапно понадобилось перевести другому человеку, либо продать на бирже. Насколько я понимаю, майнинг остановится, а оставшаяся часть монет начнёт созревать заново?<br> 
+
+<b>Ответ:</b> Всё верно, но об этом лучше позаботиться заранее. Выберите для себя часть монет, которые вы хотите использовать для PoS майнинга, и часть монет которыми хотите торговать и переводить.<br> </p>
+
+<p>Запустите кошелёк. Откройте вкладку Файл/Адреса получения и внизу выберите Legacy и нажмите Новый. Как показано не скриншоте </p>
+
+<p><img src="img/scrin2.png" class="img-responsive" alt="Создание отдельного адреса"></p>
+ 
+<p>После этого дайте название адресу: «PoS Майнинг»</p> 
+<p>Далее создайте второй адрес, выбрав тип адреса SegWit и дайте название «Для Переводов» (название может быть любым)</p>
+<p>После этого вы увидите в списке ваших адресов два адреса, как показано на скриншоте.</p>
+
+<p><img src="img/scrin3.png" class="img-responsive" alt="Раздельные адреса для разных транзакций"></p> 
+ 
+<p>Соответственно для PoS Майнинга отправляйте монеты на первый адрес, а для переводов - второй адрес. </p>
+<p>Перед тем, как отправить монеты, нажмите справа зелёную кнопку Inputs, и отметьте галочкой, с какого адреса переводить монеты. Как это показано на скриншоте.</p> 
+  
+<p><img src="img/scrin4.png" class="img-responsive" alt="Секрет с управлением входами транзакций"></p>
+
+<p><i>Этот способ позволит вам не сбрасывать счётчик каждый раз, когда вы хотите перевести монеты. Так же вы можете переводить монеты самому себе, на любые из адресов. Например, для того чтобы увеличить или уменьшить процентное соотношение адресов.</i></p> 
+<p><b>Вопрос:</b> Как пользоваться атомарными свопами?<br> 
+<b>Ответ:</b> Использование атомарных свопов в данный момент возможно только через консоль в кошельке, путём создания «Контрактов». Для реализации обмена с другими криптовалютами вам потребуются некоторые навыки программирования. Позже мы упростим эту задачу, создав полноценную криптовалютную биржу внутри кошелька, для того, чтобы любой пользователь без навыков программирования смог простыми действиями обменивать одни криптовалюты на другие, аналогично привычным криптовалютным биржам. </p>
+<br>
+
+
+
+<i>Пресс-релиз от 1.11.18 </i><br>
+
+
+		<h1>Развитие цифровой монеты «Талер»</h1>
+
+		<p><strong>Новая страница в летописи Талера – прогрессивный хардфорк</strong></p>
+		<p>Прогрессивный хардфорк запланирован на январь-февраль 2019 года. Осуществится переход на гибридный механизм консенсуса сети PoW+PoS, произойдет многократное увеличение скорости подтверждения блоков, появится функция «атомарных свопов» для мгновенного децентрализованного обмена талера на другие криптовалюты. В результате транзакции в сети Талера станут практически мгновенными, блокчейн - более устойчивым к атакам, а майнинг – более простым и менее требовательным к оборудованию, доступным любому пользователю, установившему кошелек на компьютер.</p>
 		<p>В настоящее время сеть Талера использует тип консенсуса PoW (от англ. proof of work – доказательство работы). Это значит, что вклад в поддержание работоспособности сети каждого майнера вознаграждается пропорционально  мощности вычислительных способностей его оборудования (hashrate). Недостаток PoW состоит в больших затратах электроэнергии и потенциальной угрозе централизации сети. Например, владельцы более 51% мощности сети смогут, сговорившись, осуществлять двойную трату одних и тех же криптомонет.</p>
 		<p>Вариант консенсуса PoS (от англ. proof of stake, дословно: «подтверждение доли») отличается от PoW тем, что вместо выполнения вычислений создатель блока транзакций показывает наличие у него доли в системе в виде криптовалюты на своем кошельке. Данный алгоритм обеспечивает преимущество в получении вознаграждения за формирование нового блока тем, у кого больше монет в кошельке.</p>
 		<p>Для поддержки децентрализации сети и повышения её безопасности обновленный Талер будет использовать гибридный вариант консенсуса PoW+PoS. Это усложнит организацию атак на сеть и увеличит инвестиционную привлекательность монеты.</p>
-		<p>Для того, чтобы майнинг опять стал народным, мы в несколько раз увеличим частоту генерации блоков. Время нахождения блока, которое сейчас составляет 5 минут, уменьшится до 60 секунд. Кроме соло-майнинга, это будет способствовать появлению новых частных пулов, которые получат больше возможностей для нахождения блоков. Больше пулов – выше децентрализация сети.</p>
-		<p>Также появится новый для талера вид майнинга – PoS майнинг, т.е. получение вознаграждения за хранение монет в кошельке, который находится онлайн. Для привлечения в сеть новых пользователей запланирован плавный рост уровня вознаграждений в сети в течение первого года после осуществления хардфорка. Спустя год с ростом количества пользователей вознаграждения будут поступательно снижаться.</p>
+		<p>Мы увеличим частоту генерации блоков. Время нахождения блока, которое сейчас составляет 5 минут, уменьшится до 60 секунд. Кроме соло-майнинга, это поспособствует появлению новых частных пулов, которые получат больше возможностей для нахождения блоков. Больше пулов – выше децентрализация сети.</p>
+		<p>Для привлечения в сеть новых пользователей запланирован плавный рост уровня вознаграждений в сети в течение первого года после осуществления хардфорка. Спустя год с ростом количества пользователей вознаграждения будут поступательно снижаться.</p>
 		<p>После проведения хардфорка Талер будет поддерживать функцию «атомарных свопов» (atomic swaps), т.е. возможность взаимодействовать с блокчейнами других криптовалют. Это позволит пользователям обменивать монеты Талер на другие монеты, минуя биржи.</p>
 		<p>Всё это вместе взятое позволит не только увеличить технологический уровень Талера, но и повысить его привлекательность для конечных пользователей и бизнеса.</p>
 
-		<p><strong>официальный сайт Талера</strong>: <a target="_blank" rel="noopener" href="https://taler.site">taler.site</a></p>
-		<p><strong>официальный чат в телеграм</strong>: <a target="_blank" rel="noopener" href="https://t.me/TalerOfChat">t.me/TalerOfChat</a></p>
-		<p><strong>Денис Лавникевич и Taler Team</strong></p>
+		<p><strong>официальный сайт Талера</strong>: <a target="_blank" rel="noopener" href="https://talercrypto.com">TalerCrypto.com</a></p>
+		<p><strong>официальный чат в телеграм</strong>: <a target="_blank" rel="noopener" href="https://t.me/taler_crypto">t.me/TalerCrypto</a></p>
+		<p><strong>Taler Team</strong></p>
 	</div>
 
 	<i class="fa fa-chevron-circle-up" id="go-top" aria-hidden="true"></i>	
